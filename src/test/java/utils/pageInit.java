@@ -1,7 +1,10 @@
 package utils;
 
-public class pageInit {
-    public static void initializePageObjects() {
+import pages.searchBarPage;
 
+public class pageInit {
+    public static searchBarPage searchBP;
+    public static void initializePageObjects() {
+   searchBP = new searchBarPage();
     }
 }
